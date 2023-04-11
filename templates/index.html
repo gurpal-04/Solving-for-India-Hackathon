@@ -5,53 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <form action="/getvalue" method="post">
-      Enter your game:
-      <input type="text" name="sport">
-        <li>
+    <h1 id="title">Welcome to SkillJunction</h1>
+    <div>
+        <form action="/getvalue" method="post">
+      
+        <div>
+            Enter your game:
+            <input type="text" name="sport">
+        </div>
+        
+        <div>
             ENDURANCE<br>
-            <input type="number" name="feedback_text">
-        </li>
-        <li>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter1" oninput="updateEndurance(this.value)">
+            <div id="END_input">1</div>
+        </div>
+
+        <div>
             STRENGTH<br>
-            <input type="number" name="feedback_text1">
-        </li>
-        <li>
-            POWER <br>
-            <input type="number" name="feedback_text2">
-        </li>
-        <li>
-            SPEED <br>
-            <input type="number" name="feedback_text3">
-        </li>
-        <li>
-            AGILITY <br>
-            <input type="number" name="feedback_text4">
-        </li>
-        <li>
-            FLEXIBILITY <br>
-            <input type="number" name="feedback_text5">
-        </li>
-        <li>
-            NERVE <br>
-            <input type="number" name="feedback_text6">
-        </li>
-        <li>
-            DURABILITY <br>
-            <input type="number" name="feedback_text7">
-        </li>
-        <li>
-            HAND-EYE COORDINATION <br>
-            <input type="number" name="feedback_text8">
-        </li>
-        <li>
-            ANALYTIC APTITUDE <br>
-            <input type="number" name="feedback_text9">
-        </li>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter2" oninput="updateStrength(this.value)">
+            <div id="STR_input">1</div>
+        </div>
+
+        <div>
+            Power<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter3" oninput="updatePower(this.value)">
+            <div id="POW_input">1</div>
+        </div>
+
+        <div>
+            Speed<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter4" oninput="updateSpeed(this.value)">
+            <div id="SPD_input">1</div>
+        </div>
+
+        <div>
+            AGILITY<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter5" oninput="updateAgility(this.value)">
+            <div id="AGI_input">1</div>
+        </div>
+
+        <div>
+            FLEXIBILITY<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter6" oninput="updateFlexibility(this.value)">
+            <div id="FLX_input">1</div>
+        </div>
+
+        <div>
+            NERVE<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter7" oninput="updateNerve(this.value)">
+            <div id="NVR_input">1</div>
+        </div>
+
+        <div>
+            DURABILITY<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter8" oninput="updateDurability(this.value)">
+            <div id="DUR_input">1</div>
+        </div>
+
+        <div>
+            HAND-EYE COORDINATION<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter9" oninput="updateHAN(this.value)">
+            <div id="HAN_input">1</div>
+        </div>
+
+        <div>
+            ANALYTIC APTITUDE<br>
+            <input type="range" min="1" max="10" value="1" step="1" name="parameter10" oninput="updateANA(this.value)">
+            <div id="ANA_input">1</div>
+        </div>
         <br>
         <button type="submit">Submit</button>
-    </form>
+        </form>
+        
+    </div>
+
+  <script src = "index.js"></script>
 </body>
 </html>
