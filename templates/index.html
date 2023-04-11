@@ -9,73 +9,70 @@
 </head>
 <body>
     <h1 id="title">Welcome to SkillJunction</h1>
-    <div class="picture">
-        <img src="Ronaldo.jpeg" alt="">
-        </div>
     <div>
         <form action="/getvalue" method="post">
-    
-        <div class="container1">
-            Enter your game:
+      
+        <div id="heading">
+            <b>Enter your game:</b>
             <input type="text" name="sport">
         </div>
-        <h3>Enter your score:</h3>
-        <div>
-            ENDURANCE<br>
+        
+        <div id="text">
+            <b>Endurance</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter1" oninput="updateEndurance(this.value)">
             <div id="END_input">1</div>
         </div>
 
-        <div>
-            STRENGTH<br>
+        <div id="text">
+            <b>Strength</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter2" oninput="updateStrength(this.value)">
             <div id="STR_input">1</div>
         </div>
 
-        <div>
-            Power<br>
+        <div id="text">
+            <b>Power</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter3" oninput="updatePower(this.value)">
             <div id="POW_input">1</div>
         </div>
 
-        <div>
-            Speed<br>
+        <div id="text">
+            <b>Speed</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter4" oninput="updateSpeed(this.value)">
             <div id="SPD_input">1</div>
         </div>
 
-        <div>
-            AGILITY<br>
+        <div id="text">
+           <b> Agility</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter5" oninput="updateAgility(this.value)">
             <div id="AGI_input">1</div>
         </div>
 
-        <div>
-            FLEXIBILITY<br>
+        <div id="text">
+            <b>Flexibility</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter6" oninput="updateFlexibility(this.value)">
             <div id="FLX_input">1</div>
         </div>
 
-        <div>
-            NERVE<br>
+        <div id="text">
+           <b> Nerve</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter7" oninput="updateNerve(this.value)">
             <div id="NVR_input">1</div>
-        </div>
+        </div id="text">
 
-        <div>
-            DURABILITY<br>
+        <div id="text">
+            <b>Durability</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter8" oninput="updateDurability(this.value)">
             <div id="DUR_input">1</div>
         </div>
 
-        <div>
-            HAND-EYE COORDINATION<br>
+        <div id="text">
+            <b>HAND-EYE COORDINATION</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter9" oninput="updateHAN(this.value)">
             <div id="HAN_input">1</div>
         </div>
 
-        <div>
-            ANALYTIC APTITUDE<br>
+        <div id="text">
+            <b>ANALYTIC APTITUDE</b><br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter10" oninput="updateANA(this.value)">
             <div id="ANA_input">1</div>
         </div>
@@ -85,6 +82,6 @@
         
     </div>
 
-<script src = "index.js"></script>
+  <script src = "index.js"></script>
 </body>
 </html>
