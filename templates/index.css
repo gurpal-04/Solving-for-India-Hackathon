@@ -1,0 +1,108 @@
+body {
+    background-color: #081b29; /* set the background color of the body */
+    
+    color: #333; /* set the text color */
+    font-family: Arial, sans-serif; /* set the font family */
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color:#1e90ff;
+    margin-top: 2rem;
+}
+
+form {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 2rem auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+div {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+img{
+    width: 200px;
+    position: left;
+    margin-left: -300px;
+}
+
+.picture{
+    background-color:#081b29;
+    background-size: cover;
+    //position: left;
+}
+
+
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+
+
+input[type="text"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1em;
+}
+
+
+button[type="submit"] {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1d67b0;
+}
+/* 
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    cursor: pointer;
+} */
+
+#END_input,
+#STR_input,
+#POW_input,
+#SPD_input,
+#AGI_input,
+#FLX_input,
+#NVR_input,
+#DUR_input,
+#HAN_input,
+#ANA_input {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+}

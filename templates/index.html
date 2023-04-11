@@ -9,14 +9,17 @@
 </head>
 <body>
     <h1 id="title">Welcome to SkillJunction</h1>
+    <div class="picture">
+        <img src="Ronaldo.jpeg" alt="">
+        </div>
     <div>
         <form action="/getvalue" method="post">
-      
-        <div>
+    
+        <div class="container1">
             Enter your game:
             <input type="text" name="sport">
         </div>
-        
+        <h3>Enter your score:</h3>
         <div>
             ENDURANCE<br>
             <input type="range" min="1" max="10" value="1" step="1" name="parameter1" oninput="updateEndurance(this.value)">
@@ -82,6 +85,6 @@
         
     </div>
 
-  <script src = "index.js"></script>
+<script src = "index.js"></script>
 </body>
 </html>
