@@ -1,10 +1,17 @@
 body {
     background-color: #081b29; /* set the background color of the body */
-    
+    background-image: url('Ronaldo-FIFA.png'), url('Virat-Kohli.png');
+    background-position: left top, right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:30%, 30%;
+    /* background-size: cover; */
     color: #333; /* set the text color */
     font-family: Arial, sans-serif; /* set the font family */
     font-size: 16px;
 }
+
+
 #text {
     color: rgb(75, 21, 200);
     font-size: 15px;
@@ -38,7 +45,7 @@ body {
 }
 
 .know:hover{
-    color: orange;
+    color: #0660b9;
     text-decoration: none;
 }
 h1 {
@@ -55,7 +62,7 @@ form {
             max-width: 500px;
             margin: 2rem auto;
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
-            
+            opacity: 0.8;
         }
 
 div {
