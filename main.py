@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pandas as pd
 
-df = pd.read_excel('/home/runner/GFGHack/assets/toughestsport.xlsx')
+df = pd.read_excel('toughestsport.xlsx')
 
 app = Flask(__name__)
 
@@ -29,11 +29,15 @@ def getvalue():
   sport = sport[0].upper() + sport[1:].lower()
   s = (df.loc[df['SPORT'] == sport])
   p = ['END', 'STR', 'PWR', 'SPD', 'AGI', 'FLX', 'NER', 'DUR', 'HAN', 'ANA']
+  P = [
+    'Endurance', 'Strength', 'Power', 'Speed', 'Agility', 'Flexibility',
+    'Nerve', 'Drability', 'Hand-Eye Coordination', 'Analitic Aptitude'
+  ]
   s = s[p].values
   o = []
   for i in range(10):
     if int(feed[i]) < int(s[0][i]):
-      o.append(p[i])
+      o.append(P[i])
 
   return render_template("output.html", f=feed, s=o)
 
