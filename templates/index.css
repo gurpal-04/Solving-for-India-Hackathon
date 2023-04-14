@@ -1,6 +1,6 @@
 body {
     background-color: #081b29; /* set the background color of the body */
-    background-image: url('Ronaldo-FIFA.png'), url('viratKohli.png');
+    background-image: url('Ronaldo-FIFA.png');
     background-position: left bottom, right bottom;
 
     background-attachment: fixed;
