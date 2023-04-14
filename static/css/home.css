@@ -1,0 +1,119 @@
+/* set background color for body */
+body {
+  background-color: #081b29;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+/* use a color palette that complements the image */
+:root {
+  --primary-color: #74c7b8;
+  --secondary-color: #f5d580;
+  --tertiary-color: #e3e3e3;
+  --accent-color: #9a3f37;
+}
+
+/* style navigation bar */
+#navBar {
+  margin: 0 auto;
+  /* background-color: var(--primary-color); */
+  color: white;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: right;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#navBar a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+#navBar a.active {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+#navBar a:hover {
+  background-color: var(--accent-color-hover);
+  color: var(--secondary-color);
+}
+
+
+
+/* style main content */  
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+#content {
+  margin: 5% 0 0 0;
+  flex: 1;
+}
+
+#img {
+  background-image: url("../images/playing-game.png");
+  width: 50%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: var(--tertiary-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+  
+/* adjust button styles */
+#button {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#button a {
+  display: block;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--accent-color-hover);
+}
+
+#button a:hover {
+  color: #081b29;
+  background-color: var(--secondary-color);
+}
