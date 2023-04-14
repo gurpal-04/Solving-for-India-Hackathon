@@ -1,2 +1,33 @@
-<div id="div"></div>
-<script src="output.js"></script>
+
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/css/output.css">
+  </head>
+  
+
+<body>
+  <nav id="navBar">
+        <a href="{{url_for('home')}}">Home </a> &nbsp;&nbsp;
+        <a href="">About </a> &nbsp;&nbsp;
+        <a href="{{url_for('index')}}">Test Your Skills</a> &nbsp;&nbsp;
+        <a href="">Contact </a> &nbsp;&nbsp;  
+        <a href="">Feedback Form</a> &nbsp;&nbsp;                 
+    </nav>
+  <div id="div"></div>
+</body>
+
+<script >
+  const x = {{s|tojson}};
+  const div = document.getElementById("div");
+
+  for (let index = 0; index < x.length; index++) {
+    let skillToImprove = document.createElement("div");
+    skillToImprove.classList.add("skill");
+    skillToImprove.textContent = x[index];
+    div.append(skillToImprove);
+  }
+</script>
+</html>
+ 
