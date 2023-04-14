@@ -50,7 +50,7 @@ body {
 
   #navBar a:hover {
     background-color: var(--accent-color-hover);
-    color: white;
+    color: var(--secondary-color);
   }
   
   
@@ -77,7 +77,8 @@ body {
   }
   
   p {
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
     line-height: 1.5;
     margin-bottom: 20px;
     color: var(--tertiary-color);
@@ -113,6 +114,7 @@ body {
   }
   
   #button a:hover {
-    background-color: var(--accent-color-hover);
+    color: #081b29;
+    background-color: var(--secondary-color);
   }
   
