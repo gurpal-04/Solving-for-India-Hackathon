@@ -1,7 +1,7 @@
 body {
     background-color: #081b29;
     /* set the background color of the body */
-    background-image: url('Ronaldo-FIFA.png'), url('viratKohli.png');
+    background-image: url('../images/Ronaldo-FIFA.png'), url('../images/viratKohli.png');
     background-position: left bottom, right bottom;
 
     background-attachment: fixed;
