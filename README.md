@@ -4,7 +4,7 @@ FitSport is a web application that helps users improve their skills in sports by
 **Demo**
 
 You can access the demo version of FitSport at https://fitsport.onrender.com/. <br>
-Demo Video: https://www.loom.com/share/d422cade79e34843a4cc1f61c33e051b
+Demo Video: https://www.loom.com/share/8a2ee0072ed04125ad7902ce09c184e8
 
 
 **Features**
@@ -54,10 +54,7 @@ We hope that this project will be useful for users who want to improve their ski
 
 If you have any questions or feedback, please contact us :
 
-https://www.linkedin.com/in/gurpal-singh-914060226/
-
-https://www.linkedin.com/in/amritpalsingh492/
-
-https://www.linkedin.com/in/aditi-goyal-002706237/
-
+https://www.linkedin.com/in/gurpal-singh-914060226/ <br>
+https://www.linkedin.com/in/amritpalsingh492/<br>
+https://www.linkedin.com/in/aditi-goyal-002706237/<br>
 https://www.linkedin.com/in/akash-x-11734b225/
