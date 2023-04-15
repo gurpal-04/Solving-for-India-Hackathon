@@ -3,7 +3,8 @@ FitSport is a web application that helps users improve their skills in sports by
 
 **Demo**
 
-You can access the demo version of FitSport at https://fitsport.onrender.com/.
+You can access the demo version of FitSport at https://fitsport.onrender.com/. <br>
+Demo Video: https://www.loom.com/share/d422cade79e34843a4cc1f61c33e051b
 
 
 **Features**
